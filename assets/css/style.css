@@ -21,7 +21,7 @@ nav{
 nav a{
     color: #fff;
     text-decoration: none;
-    padding-right: 20px;
+    padding:20px 0px;
     
 }
 
@@ -31,11 +31,15 @@ nav>div>a:hover{
 
 #bedu-logo{
     margin: 20px;
-    width: 50px;
+
 }
 
 #bedu-logo svg{
     fill: white;
+}
+
+.sign{
+    padding: 10px;
 }
 
 section{
@@ -78,12 +82,12 @@ footer{
 }
 
 .copyright{
-    margin: 0px 30px;
+    padding: 10px;
 }
 
 .social-media{
     height: 30px;
-    padding: 0px 30px;
+    padding: 15px;
 }
 
 .icons{
@@ -110,5 +114,23 @@ footer{
 
     input{
         display: none;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    nav a{
+        padding: 0px 5px;
+    }
+
+    #bedu-logo{
+        margin: 10px;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 }
