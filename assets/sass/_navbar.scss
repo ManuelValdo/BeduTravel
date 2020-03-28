@@ -1,0 +1,15 @@
+nav{
+    background-color:$navbg;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & a{
+        color: #fff;
+        text-decoration: none;
+        padding:20px 0px;    
+        &:hover{
+            color: lighten($purple , 60%)
+        }
+    }
+}
